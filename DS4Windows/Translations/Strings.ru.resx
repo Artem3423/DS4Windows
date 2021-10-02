@@ -364,6 +364,18 @@
     <value>Геймпад</value>
     <comment>preset name</comment>
   </data>
+  <data name="MixedGyroMousePresetDescription" xml:space="preserve">
+    <value>Сопоставляет кнопки и оси со стандартным геймпадом. Сопоставляет гироскоп с виртуальной мышью.</value>
+  </data>
+  <data name="MixedGyroMousePresetName" xml:space="preserve">
+    <value>Геймпад с гироскопической мышью</value>
+  </data>
+  <data name="MixedPresetDescription" xml:space="preserve">
+    <value>Сопоставляет выход контроллера со смешанным геймпадом XInput + мышью RS.</value>
+  </data>
+  <data name="MixedPresetName" xml:space="preserve">
+    <value>Геймпад с камерой высокой точности</value>
+  </data>
   <data name="Description" xml:space="preserve">
     <value>Описание</value>
     <comment>Profiles tab&gt;Select Preset</comment>
@@ -499,5 +511,41 @@
   </data>
   <data name="SharedAccess" xml:space="preserve">
     <value>Общий доступ</value>
+  </data>
+  <data name="RenameProfile" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="DisableVirtualController" xml:space="preserve">
+    <value>Отключить виртуальный контроллер</value>
+  </data>
+  <data name="DisableVirtualControllerTip" xml:space="preserve">
+    <value>Не создавать / связывать виртуальные контроллеры для подключенных контроллеров, использующих этот профиль (применяется при сохранении профиля)</value>
+  </data>
+  <data name="EmulatedController" xml:space="preserve">
+    <value>Эмулируемый Контроллер</value>
+  </data>
+  <data name="OutContNotice" xml:space="preserve">
+    <value>Выберите тип выходного виртуального контроллера (применяется при сохранении профиля)</value>
+  </data>
+  <data name="VirtualControllerSettings" xml:space="preserve">
+    <value>Настройки виртуального Контроллера</value>
+  </data>
+  <data name="ChangeOnNewDeviceConn" xml:space="preserve">
+    <value>Изменения вступают в силу при подключении нового устройства</value>
+  </data>
+  <data name="TouchpadSlideTooltip" xml:space="preserve">
+    <value>Чувствительность, используемая для активации мультисенсорного действия прокрутки колесика мыши.</value>
+  </data>
+  <data name="TouchpadTapTooltip" xml:space="preserve">
+    <value>Активируйте щелчок левой кнопкой мыши с помощью сенсорной панели. Максимальный интервал времени устанавливается равным (значение * 2) мс.</value>
+  </data>
+  <data name="TouchpadTrackballEnableTooltip" xml:space="preserve">
+    <value>Добавляет импульс движению по сенсорной панели после поднятия пальца. Добавляет дополнительное ускорение курсору мыши, чем это было бы возможно при ограниченном пространстве на сенсорной панели.</value>
+  </data>
+  <data name="TouchpadTrackballFrictionTooltip" xml:space="preserve">
+    <value>Добавьте трение к виртуальному трекболу. Уменьшение трения увеличит конечное время перемещения курсора мыши.</value>
+  </data>
+  <data name="DS4LightbarPassthruDisabled" xml:space="preserve">
+    <value>В настоящее время функция отключена в приложении из-за проблем с драйверами. Надеюсь, проблемы будут исправлены в будущем обновлении.</value>
   </data>
 </root>
